@@ -1,0 +1,12 @@
+# Aparat Intelligence - Python dependencies
+
+Core: Python 3.11+ standard library only (tomllib, subprocess, json, ...).
+
+# System binaries (not pip packages) - must exist on PATH:
+#   ffmpeg, ffprobe  - audio extraction, chunking, frame extraction
+#   yt-dlp           - Aparat video download / metadata
+
+# Python package install:
+#   python -m pip install -r requirements.txt
+#   # or
+#   uv pip install -r requirements.txt
